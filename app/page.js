@@ -4,8 +4,11 @@ import img from "../public/assets/happy-birthday.jpg"
 export default function Home() {
   return (
     <main className="">
-      <div className=" text-8xl font-bold text-center strk text-transparent select-none">
-      <marquee className="h-28" behavior="scroll" direction="left" scrollamount="20">Happy Birthday To You <span className="text-[#EB6A66]"> Tasmim</span> my <span className="text-[#EB6A66]">Tasu</span></marquee>
+      <div className=" text-6xl font-bold text-center strk text-transparent select-none">
+        <marquee className="h-28" behavior="scroll" direction="left" scrollamount="10">
+          Happy Birthday To You <span className="text-[#EB6A66]"> Tasmim</span>
+          {/* my <span className="text-[#EB6A66]">Tasu</span> */}
+        </marquee>
       </div>
       <div className="flex items-center justify-center mt-20">
         {/* <div className="relative">
